@@ -5,7 +5,8 @@
     name: "{{ packages }}"
     update_cache: yes
   vars:
-    packages:
+    packages
+    - acl
     - git
     - postgresql
     - python3
